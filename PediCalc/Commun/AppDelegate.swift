@@ -3,7 +3,7 @@
 //  PediCalc
 //
 //  Created by Leonardo Gomes Fernandes on 05/02/21.
-//
+// swiftlint:disable unused_closure_parameter
 
 import UIKit
 import CoreData
@@ -11,10 +11,23 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if UserDefaults.standard.bool(forKey: "First Launch") == false {
+            
+            let jsonParser = JsonParser()
+            let cdManager = CDManager()
+    
+            let medicines = jsonParser.parsingMedicines()
+            print(medicines.count)
+            
+            if !cdManager.populateMedicines(medicines: medicines) {
+                return false
+            }
+        }
+        UserDefaults.standard.set(true, forKey: "First Launch")
+        
         return true
     }
 
@@ -46,7 +59,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                 
                 /*
                  Typical reasons for an error here include:
                  * The parent directory does not exist, cannot be created, or disallows writing.
@@ -78,4 +90,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

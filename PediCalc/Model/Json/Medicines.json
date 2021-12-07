@@ -1,0 +1,441 @@
+[
+    {
+      "name": "Albendazol(400 mg/10mL) - sup",
+      "dose": [
+        "10 mL VO 1x/dia durante 3 dias"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "NÃO USAR EM CRIANÇAS < 2 ANOS"
+    },
+    {
+      "name": "Albendazol(400 mg) - cp",
+      "dose": [
+        "1 comp VO 1x/dia durante 3 dias"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "NÃO USAR EM CRIANÇAS < 2 ANOS"
+    },
+    {
+      "name": "Amoxicilina (250 mg/5mL) susp",
+      "dose": [
+        "50 mg/Kg/dia VO de 8/8h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "10-14 dias para sinusite/otite"
+    },
+    {
+      "name": "Cefalexina (250 mg/5mL) - susp",
+      "dose": [
+        "50 mg/Kg/dia VO de 6/6h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Ceftriaxona (FA= 250, 500, 1000 g)",
+      "dose": [
+        "100 mg/Kg/dia EV de 24/24h"
+      ],
+      "dilution": "100 mg/mL",
+      "redilution": "10 mg/mL",
+      "notes": ""
+    },
+    {
+      "name": "Cefuroxima (FA 750 mg)",
+      "dose": [
+        "100 mg/kg/dia EV de 8/8h"
+      ],
+      "dilution": "125 mg/mL",
+      "redilution": "7,5 mg/mL",
+      "notes": ""
+    },
+    {
+      "name": "Eritromicina (250 mg/5mL) - susp",
+      "dose": [
+        "40 mg/Kg/dia VO de 6/6h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "10-14 dias para coqueluche"
+    },
+    {
+      "name": "Mebendazol (100 mg/5mL) - susp",
+      "dose": [
+        "5 mL VO de 12/12h por 3 dias"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "Repetir esquema com 7 dias"
+    },
+    {
+      "name": "Mebendazol (100 mg) - cp",
+      "dose": [
+        "1 comp VO de 12/12h por 3 dias"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "Repetir esquema com 7 dias"
+    },
+    {
+      "name": "Metronidazol (200 mg/5mL) - susp",
+      "dose": [
+        "40 mg/Kg/dia VO de 8/8h 5-7 dias"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "40 mg/Kg (ameba e giárdia)"
+    },
+    {
+      "name": "Oxacilina (FA 500 mg)",
+      "dose": [
+        "200 mg/Kg/dia EV de 4/4h"
+      ],
+      "dilution": "100 mg/mL",
+      "redilution": "10 mg/mL",
+      "notes": "Correr EV em 30 minutos"
+    },
+    {
+      "name": "Penicilina cristalina (FA 1.000.000 UI e 5.000.000 UI)",
+      "dose": [
+        "200.000 UI/Kg/dia EV de 4/4h"
+      ],
+      "dilution": "500.000 UI/mL",
+      "redilution": "50.000 UI/mL < 1 ano 100.000 UI/mL > 1ano",
+      "notes": "7-10 dias para pneumonias"
+    },
+    {
+      "name": "Penicilina procaína (FA 300.000 UI)",
+      "dose": [
+        "50.000UI/Kg/dia IM de 24/24h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Penicilina benzatina (FA 600.000UI e 1.200.000 UI)",
+      "dose": [
+        "600.000 UI IM até 20 Kg em dose ÚNICA",
+        "1.200.000 UI IM em > 20 Kg em dose ÚNICA"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Sulfametoxazol + Trimetropim (200 mg + 40 mg/5mL) – susp",
+      "dose": [
+        "20 mg de Sulfa/Kg/dia VO de 12/12h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Difenidramina (50 mg/mL)",
+      "dose": [
+        "1-2 mg/Kg/dose EV a cada 6/6h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "dose máxima 50 mg/dia"
+    },
+    {
+      "name": "Hidroxizine (10 mg/5 mL)",
+      "dose": [
+        "1-2 mg/Kg/dia VO de 6/6 ou de 8/8h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Loratadina (5 mg/5 mL) xpe.",
+      "dose": [
+        "5 mg 1x/dia de 2-5 anos"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "NÃO USAR EM CRIANÇAS < 2 ANOS"
+    },
+    {
+      "name": "Loratadina (10mg ) - comp",
+      "dose": [
+        "10mg 1x/dia em >6 anos ou >30kg"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "NÃO USAR EM CRIANÇAS < 2 ANOS"
+    },
+    {
+      "name": "Hidrocortisona (100 mg/mL)",
+      "dose": [
+        "5 mg/kg/dose EV até de 6/6h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Dexametasona (4 mg/mL)",
+      "dose": [
+        "2 mg/kg/dia VO de 6/6h ou 12/12h",
+        "0,03 a 0,08 mg/kg/dia EV de 6/6h ou 12/12h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Prednisolona (3 mg/mL) xpe.",
+      "dose": [
+        "1-2 mg/Kg/dia 1x/dia"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "5-7 dias (asma)"
+    },
+    {
+      "name": "Nebulização",
+      "dose": [
+        "5 mL de SF 0,9% + Berotec (1 gota a cada 3kg - Máximo de 10 gotas)"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Nebulização com solução hipertônica a 3%",
+      "dose": [
+        "2,8 mL AD + 0,5 mL NaCl 20% + Berotec (1 gota a cada 3 kg - max de 10 gotas) de 8/8h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Nebulização com (Clenil A)",
+      "dose": [
+        "5 mL de SF 0",
+        "9% + 1mL de Clenil A de 12/12h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Anlodipina (5 mg e 10 mg) comp.",
+      "dose": [
+        "0,05 a 0,2 mg/Kg/dia de 12/12h VO"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Captopril (12,5 mg, 25 mg, 50 mg) comp.",
+      "dose": [
+        "1-6 mg/Kg/dia de 8/8h ou de 12/12h VO"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Furosemida (20 mg/2mL) FA",
+      "dose": [
+        "1-2 mg/Kg/dose a cada 6 a 12h EV ou VO"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Furosemida (40 mg) comp.",
+      "dose": [
+        "2-6 mg/Kg/dia a cada 6 a 12h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Cetoprofeno gotas (20 mg/mL)",
+      "dose": [
+        "1 gota/Kg/dose VO de 8/8h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Dipirona (500 mg/mL) FA ou susp.",
+      "dose": [
+        "0,03 mL/Kg/dose EV até de 6/6h",
+        "0,8 gt/Kg/dose VO até de 6/6h"
+      ],
+      "dilution": "Diluir dose em 10 mL de AD",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Bromoprida (10 mg/2mL) FA",
+      "dose": [
+        "0,02 mL/Kg/dose EV até de 8/8h"
+      ],
+      "dilution": "Diluir dose em 20 mL de AD",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Bromoprida (4 mg/mL) gotas",
+      "dose": [
+        "1 gt/Kg/dose VO até de 8/8h"
+      ],
+      "dilution": "Diluir dose em 20 mL de AD",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Lactulose (667 mg/mL)",
+      "dose": [
+        "0,3-0,5 mL/Kg/dia VO em 1-2 tomadas"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Luftal (dimeticona)",
+      "dose": [
+        "1 gt/Kg/dose VO até de 6/6h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Ibuprofeno (100 mg/5mL)",
+      "dose": [
+        "5-10 mg/Kg/dia de 6/6h ou de 8/8h (analgésico) VO",
+        "30-50 mg/Kg/dia de 8/8h (anti-inflamatório) VO"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Paracetamol (200 mg/mL)",
+      "dose": [
+        "1 gt/Kg/dose VO até de 6/6h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Paracetamol (500 mg) - comp",
+      "dose": [
+        "1cpVOatéde6/6h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Concentrado de hemácias",
+      "dose": [
+        "10-15 mL/kg EV em 2 horas"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "Adicionar volume do equipo"
+    },
+    {
+      "name": "Plaquetas",
+      "dose": [
+        "1U a cada 5 a 10kg (max.de 8U) gota a gota"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Clister glicerinado 5%",
+      "dose": [
+        "10 mL/kg"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Diazepam",
+      "dose": [
+        "0,05 a 0,3 mg/kg/dose IV"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Fenobarbital (200 mg) - FA",
+      "dose": [
+        "10-20 mg/kg (dose de ataque) EV",
+        "3 a 4 mg/kg/dia IM ou EV dose única ou de 12/12 h (dose de manutenção)"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "Infusão lenta, não usar IM na EV. Cuidado com interações"
+    },
+    {
+      "name": "Midazolam (5 mg/ml) - FA",
+      "dose": [
+        "0,1-0,3 mg/Kg/dose EV ou intra-nasal"
+      ],
+      "dilution": "Diluir 1mL para 4mL AD para ficar 1mg/mL",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Omeprazol (FA 40 mg)",
+      "dose": [
+        "0.7-3.5 mg/Kg/dia EV"
+      ],
+      "dilution": "40 mg/mL",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Ranitidina (50 mg/2 mL) – FA",
+      "dose": [
+        "2-4 mg/Kg/dose EV a cada 6/6h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Ranitidina (15 mg/mL) - xp",
+      "dose": [
+        "5 mg/Kg/dose VO de 12/12h"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": ""
+    },
+    {
+      "name": "Sulfato ferroso (125 mg/mL = 1,25 mg/gt)",
+      "dose": [
+        "1-2 mg/Kg/dia VO - dose profilática 1 x /dia",
+        "3-5 mg/Kg/dia VO - dose terapêutica 2 x /dia"
+      ],
+      "dilution": "",
+      "redilution": "",
+      "notes": "Oferecer antes das refeições com suco de frutas cítricas"
+    }
+  ]

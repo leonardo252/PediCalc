@@ -2,11 +2,10 @@
 //  PediCalcTests.swift
 //  PediCalcTests
 //
-//  Created by Leonardo Gomes Fernandes on 05/02/21.
+//  Created by Leonardo Gomes Fernandes on 17/02/21.
 //
 
 import XCTest
-@testable import PediCalc
 
 class PediCalcTests: XCTestCase {
 
@@ -25,7 +24,7 @@ class PediCalcTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }

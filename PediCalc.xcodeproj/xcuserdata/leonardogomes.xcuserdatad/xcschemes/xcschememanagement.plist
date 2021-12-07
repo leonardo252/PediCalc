@@ -6,8 +6,28 @@
 	<dict>
 		<key>PediCalc.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>73090D8F25CCF73D00BAFC44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73090DA825CCF73E00BAFC44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73090DB325CCF73E00BAFC44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -9,24 +9,47 @@
 /* Begin PBXBuildFile section */
 		73090D9425CCF73D00BAFC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090D9325CCF73D00BAFC44 /* AppDelegate.swift */; };
 		73090D9625CCF73D00BAFC44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090D9525CCF73D00BAFC44 /* SceneDelegate.swift */; };
-		73090D9825CCF73D00BAFC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090D9725CCF73D00BAFC44 /* ViewController.swift */; };
 		73090D9B25CCF73D00BAFC44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73090D9925CCF73D00BAFC44 /* Main.storyboard */; };
 		73090D9E25CCF73D00BAFC44 /* PediCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73090D9C25CCF73D00BAFC44 /* PediCalc.xcdatamodeld */; };
 		73090DA025CCF73E00BAFC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73090D9F25CCF73E00BAFC44 /* Assets.xcassets */; };
 		73090DA325CCF73E00BAFC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73090DA125CCF73E00BAFC44 /* LaunchScreen.storyboard */; };
-		73090DAE25CCF73E00BAFC44 /* PediCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090DAD25CCF73E00BAFC44 /* PediCalcTests.swift */; };
 		73090DB925CCF73E00BAFC44 /* PediCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73090DB825CCF73E00BAFC44 /* PediCalcUITests.swift */; };
+		73090DCA25CCF7A100BAFC44 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 73090DC925CCF7A100BAFC44 /* .swiftlint.yml */; };
+		731BEDBE25DD5B4900526282 /* JsonParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BEDBD25DD5B4900526282 /* JsonParserTests.swift */; };
+		731BEDC325DD5C2A00526282 /* CoreDataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BEDC225DD5C2A00526282 /* CoreDataManagerTests.swift */; };
+		731BEDC825DD621F00526282 /* CalculatorViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731BEDC725DD621F00526282 /* CalculatorViewModelTests.swift */; };
+		733D85CF25D2BCCC00F4B420 /* MedicinesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733D85CE25D2BCCC00F4B420 /* MedicinesTableViewCell.swift */; };
+		733D85D425D2C8B400F4B420 /* MedicineCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733D85D325D2C8B400F4B420 /* MedicineCellView.swift */; };
+		737951BA25DD5B13001B1C12 /* PediCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737951B925DD5B13001B1C12 /* PediCalcTests.swift */; };
+		7384F5C325CE2A6400BEEE16 /* CardColletionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384F5C225CE2A6400BEEE16 /* CardColletionViewCell.swift */; };
+		7384F5D025CE328700BEEE16 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7384F5CF25CE328700BEEE16 /* CustomFlowLayout.swift */; };
+		73962A4D25CD70550087603A /* CalculatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73962A4C25CD70550087603A /* CalculatorsViewController.swift */; };
+		73962A6625CD75C90087603A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73962A6525CD75C90087603A /* TabBarViewController.swift */; };
+		73962A6B25CD76110087603A /* MedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73962A6A25CD76110087603A /* MedicinesViewController.swift */; };
+		73962A7925CD7E2F0087603A /* CalculatorsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73962A7825CD7E2F0087603A /* CalculatorsCollectionView.swift */; };
+		73962A8925CD93910087603A /* CalculatorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73962A8825CD93910087603A /* CalculatorsViewModel.swift */; };
+		7396DAA625D415DE00E4D7D0 /* BodySurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396DAA525D415DE00E4D7D0 /* BodySurfaceView.swift */; };
+		7396DAB025D489D500E4D7D0 /* BodySurfaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396DAAF25D489D500E4D7D0 /* BodySurfaceModel.swift */; };
+		73A29F5225D601E80074750F /* Medicines.json in Resources */ = {isa = PBXBuildFile; fileRef = 73A29F5125D601E80074750F /* Medicines.json */; };
+		73A29F5725D60A3E0074750F /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A29F5625D60A3E0074750F /* JsonParser.swift */; };
+		73A29F5F25D60C670074750F /* JsonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A29F5E25D60C670074750F /* JsonModels.swift */; };
+		73A29F6625D61DAE0074750F /* CoreDataMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A29F6525D61DAE0074750F /* CoreDataMenager.swift */; };
+		73A29F8525D620FA0074750F /* Medicine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A29F8325D620FA0074750F /* Medicine+CoreDataClass.swift */; };
+		73A29F8625D620FA0074750F /* Medicine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A29F8425D620FA0074750F /* Medicine+CoreDataProperties.swift */; };
+		73A29F9125D631A20074750F /* MedicineDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A29F9025D631A20074750F /* MedicineDescriptionViewController.swift */; };
+		73A29F9625D634190074750F /* MedicineDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A29F9525D634190074750F /* MedicineDescriptionView.swift */; };
+		73AA86DA25D2117400621935 /* MedicinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AA86D925D2117400621935 /* MedicinesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		73090DAA25CCF73E00BAFC44 /* PBXContainerItemProxy */ = {
+		73090DB525CCF73E00BAFC44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 73090D8825CCF73D00BAFC44 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 73090D8F25CCF73D00BAFC44;
 			remoteInfo = PediCalc;
 		};
-		73090DB525CCF73E00BAFC44 /* PBXContainerItemProxy */ = {
+		737951BC25DD5B13001B1C12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 73090D8825CCF73D00BAFC44 /* Project object */;
 			proxyType = 1;
@@ -39,29 +62,45 @@
 		73090D9025CCF73D00BAFC44 /* PediCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PediCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73090D9325CCF73D00BAFC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73090D9525CCF73D00BAFC44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		73090D9725CCF73D00BAFC44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73090D9A25CCF73D00BAFC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73090D9D25CCF73D00BAFC44 /* PediCalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PediCalc.xcdatamodel; sourceTree = "<group>"; };
 		73090D9F25CCF73E00BAFC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73090DA225CCF73E00BAFC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73090DA425CCF73E00BAFC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73090DA925CCF73E00BAFC44 /* PediCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PediCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		73090DAD25CCF73E00BAFC44 /* PediCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PediCalcTests.swift; sourceTree = "<group>"; };
-		73090DAF25CCF73E00BAFC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73090DB425CCF73E00BAFC44 /* PediCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PediCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73090DB825CCF73E00BAFC44 /* PediCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PediCalcUITests.swift; sourceTree = "<group>"; };
 		73090DBA25CCF73E00BAFC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73090DC925CCF7A100BAFC44 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		731BEDBD25DD5B4900526282 /* JsonParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParserTests.swift; sourceTree = "<group>"; };
+		731BEDC225DD5C2A00526282 /* CoreDataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerTests.swift; sourceTree = "<group>"; };
+		731BEDC725DD621F00526282 /* CalculatorViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModelTests.swift; sourceTree = "<group>"; };
+		733D85CE25D2BCCC00F4B420 /* MedicinesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesTableViewCell.swift; sourceTree = "<group>"; };
+		733D85D325D2C8B400F4B420 /* MedicineCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineCellView.swift; sourceTree = "<group>"; };
+		737951B725DD5B13001B1C12 /* PediCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PediCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		737951B925DD5B13001B1C12 /* PediCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PediCalcTests.swift; sourceTree = "<group>"; };
+		737951BB25DD5B13001B1C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7384F5C225CE2A6400BEEE16 /* CardColletionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardColletionViewCell.swift; sourceTree = "<group>"; };
+		7384F5CF25CE328700BEEE16 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		73962A4C25CD70550087603A /* CalculatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorsViewController.swift; sourceTree = "<group>"; };
+		73962A6525CD75C90087603A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		73962A6A25CD76110087603A /* MedicinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesViewController.swift; sourceTree = "<group>"; };
+		73962A7825CD7E2F0087603A /* CalculatorsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorsCollectionView.swift; sourceTree = "<group>"; };
+		73962A8825CD93910087603A /* CalculatorsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorsViewModel.swift; sourceTree = "<group>"; };
+		7396DAA525D415DE00E4D7D0 /* BodySurfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySurfaceView.swift; sourceTree = "<group>"; };
+		7396DAAF25D489D500E4D7D0 /* BodySurfaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySurfaceModel.swift; sourceTree = "<group>"; };
+		73A29F5125D601E80074750F /* Medicines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Medicines.json; sourceTree = "<group>"; };
+		73A29F5625D60A3E0074750F /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		73A29F5E25D60C670074750F /* JsonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModels.swift; sourceTree = "<group>"; };
+		73A29F6525D61DAE0074750F /* CoreDataMenager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataMenager.swift; sourceTree = "<group>"; };
+		73A29F8325D620FA0074750F /* Medicine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medicine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		73A29F8425D620FA0074750F /* Medicine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medicine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		73A29F9025D631A20074750F /* MedicineDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineDescriptionViewController.swift; sourceTree = "<group>"; };
+		73A29F9525D634190074750F /* MedicineDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineDescriptionView.swift; sourceTree = "<group>"; };
+		73AA86D925D2117400621935 /* MedicinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		73090D8D25CCF73D00BAFC44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73090DA625CCF73E00BAFC44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,15 +114,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		737951B425DD5B13001B1C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		73090D8725CCF73D00BAFC44 = {
 			isa = PBXGroup;
 			children = (
+				73090DC925CCF7A100BAFC44 /* .swiftlint.yml */,
 				73090D9225CCF73D00BAFC44 /* PediCalc */,
-				73090DAC25CCF73E00BAFC44 /* PediCalcTests */,
 				73090DB725CCF73E00BAFC44 /* PediCalcUITests */,
+				737951B825DD5B13001B1C12 /* PediCalcTests */,
 				73090D9125CCF73D00BAFC44 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				73090D9025CCF73D00BAFC44 /* PediCalc.app */,
-				73090DA925CCF73E00BAFC44 /* PediCalcTests.xctest */,
 				73090DB425CCF73E00BAFC44 /* PediCalcUITests.xctest */,
+				737951B725DD5B13001B1C12 /* PediCalcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +148,11 @@
 		73090D9225CCF73D00BAFC44 /* PediCalc */ = {
 			isa = PBXGroup;
 			children = (
-				73090D9325CCF73D00BAFC44 /* AppDelegate.swift */,
-				73090D9525CCF73D00BAFC44 /* SceneDelegate.swift */,
-				73090D9725CCF73D00BAFC44 /* ViewController.swift */,
+				7396DAAE25D489BC00E4D7D0 /* Model */,
+				73962A5425CD715E0087603A /* ViewModels */,
+				73962A5525CD71780087603A /* Views */,
+				73962A4B25CD70340087603A /* ViewControllers */,
+				73D344E425CD6D650000399D /* Commun */,
 				73090D9925CCF73D00BAFC44 /* Main.storyboard */,
 				73090D9F25CCF73E00BAFC44 /* Assets.xcassets */,
 				73090DA125CCF73E00BAFC44 /* LaunchScreen.storyboard */,
@@ -113,15 +162,6 @@
 			path = PediCalc;
 			sourceTree = "<group>";
 		};
-		73090DAC25CCF73E00BAFC44 /* PediCalcTests */ = {
-			isa = PBXGroup;
-			children = (
-				73090DAD25CCF73E00BAFC44 /* PediCalcTests.swift */,
-				73090DAF25CCF73E00BAFC44 /* Info.plist */,
-			);
-			path = PediCalcTests;
-			sourceTree = "<group>";
-		};
 		73090DB725CCF73E00BAFC44 /* PediCalcUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +169,115 @@
 				73090DBA25CCF73E00BAFC44 /* Info.plist */,
 			);
 			path = PediCalcUITests;
+			sourceTree = "<group>";
+		};
+		737951B825DD5B13001B1C12 /* PediCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				737951B925DD5B13001B1C12 /* PediCalcTests.swift */,
+				737951BB25DD5B13001B1C12 /* Info.plist */,
+				731BEDBD25DD5B4900526282 /* JsonParserTests.swift */,
+				731BEDC225DD5C2A00526282 /* CoreDataManagerTests.swift */,
+				731BEDC725DD621F00526282 /* CalculatorViewModelTests.swift */,
+			);
+			path = PediCalcTests;
+			sourceTree = "<group>";
+		};
+		73962A4B25CD70340087603A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				73962A4C25CD70550087603A /* CalculatorsViewController.swift */,
+				73962A6525CD75C90087603A /* TabBarViewController.swift */,
+				73962A6A25CD76110087603A /* MedicinesViewController.swift */,
+				73A29F9025D631A20074750F /* MedicineDescriptionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		73962A5425CD715E0087603A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				73962A8825CD93910087603A /* CalculatorsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		73962A5525CD71780087603A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7396DAA425D4159A00E4D7D0 /* Medicines */,
+				73AA86D825D2115000621935 /* Calculators */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7396DAA425D4159A00E4D7D0 /* Medicines */ = {
+			isa = PBXGroup;
+			children = (
+				73AA86D925D2117400621935 /* MedicinesView.swift */,
+				733D85CE25D2BCCC00F4B420 /* MedicinesTableViewCell.swift */,
+				733D85D325D2C8B400F4B420 /* MedicineCellView.swift */,
+				73A29F9525D634190074750F /* MedicineDescriptionView.swift */,
+			);
+			path = Medicines;
+			sourceTree = "<group>";
+		};
+		7396DAAD25D489A700E4D7D0 /* CalcViews */ = {
+			isa = PBXGroup;
+			children = (
+				7396DAA525D415DE00E4D7D0 /* BodySurfaceView.swift */,
+			);
+			path = CalcViews;
+			sourceTree = "<group>";
+		};
+		7396DAAE25D489BC00E4D7D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73A29F6425D61D9A0074750F /* CoreData */,
+				73A29F6325D61D8C0074750F /* Json */,
+				7396DAAF25D489D500E4D7D0 /* BodySurfaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73A29F6325D61D8C0074750F /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				73A29F5125D601E80074750F /* Medicines.json */,
+				73A29F5625D60A3E0074750F /* JsonParser.swift */,
+				73A29F5E25D60C670074750F /* JsonModels.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		73A29F6425D61D9A0074750F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				73A29F8325D620FA0074750F /* Medicine+CoreDataClass.swift */,
+				73A29F8425D620FA0074750F /* Medicine+CoreDataProperties.swift */,
+				73A29F6525D61DAE0074750F /* CoreDataMenager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		73AA86D825D2115000621935 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				7396DAAD25D489A700E4D7D0 /* CalcViews */,
+				73962A7825CD7E2F0087603A /* CalculatorsCollectionView.swift */,
+				7384F5C225CE2A6400BEEE16 /* CardColletionViewCell.swift */,
+				7384F5CF25CE328700BEEE16 /* CustomFlowLayout.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		73D344E425CD6D650000399D /* Commun */ = {
+			isa = PBXGroup;
+			children = (
+				73090D9325CCF73D00BAFC44 /* AppDelegate.swift */,
+				73090D9525CCF73D00BAFC44 /* SceneDelegate.swift */,
+			);
+			path = Commun;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +290,7 @@
 				73090D8C25CCF73D00BAFC44 /* Sources */,
 				73090D8D25CCF73D00BAFC44 /* Frameworks */,
 				73090D8E25CCF73D00BAFC44 /* Resources */,
+				73090DCE25CCF7B100BAFC44 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -150,24 +300,6 @@
 			productName = PediCalc;
 			productReference = 73090D9025CCF73D00BAFC44 /* PediCalc.app */;
 			productType = "com.apple.product-type.application";
-		};
-		73090DA825CCF73E00BAFC44 /* PediCalcTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73090DC025CCF73E00BAFC44 /* Build configuration list for PBXNativeTarget "PediCalcTests" */;
-			buildPhases = (
-				73090DA525CCF73E00BAFC44 /* Sources */,
-				73090DA625CCF73E00BAFC44 /* Frameworks */,
-				73090DA725CCF73E00BAFC44 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				73090DAB25CCF73E00BAFC44 /* PBXTargetDependency */,
-			);
-			name = PediCalcTests;
-			productName = PediCalcTests;
-			productReference = 73090DA925CCF73E00BAFC44 /* PediCalcTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		73090DB325CCF73E00BAFC44 /* PediCalcUITests */ = {
 			isa = PBXNativeTarget;
@@ -187,6 +319,24 @@
 			productReference = 73090DB425CCF73E00BAFC44 /* PediCalcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		737951B625DD5B13001B1C12 /* PediCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737951BE25DD5B13001B1C12 /* Build configuration list for PBXNativeTarget "PediCalcTests" */;
+			buildPhases = (
+				737951B325DD5B13001B1C12 /* Sources */,
+				737951B425DD5B13001B1C12 /* Frameworks */,
+				737951B525DD5B13001B1C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737951BD25DD5B13001B1C12 /* PBXTargetDependency */,
+			);
+			name = PediCalcTests;
+			productName = PediCalcTests;
+			productReference = 737951B725DD5B13001B1C12 /* PediCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +349,11 @@
 					73090D8F25CCF73D00BAFC44 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					73090DA825CCF73E00BAFC44 = {
+					73090DB325CCF73E00BAFC44 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 73090D8F25CCF73D00BAFC44;
 					};
-					73090DB325CCF73E00BAFC44 = {
+					737951B625DD5B13001B1C12 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 73090D8F25CCF73D00BAFC44;
 					};
@@ -223,8 +373,8 @@
 			projectRoot = "";
 			targets = (
 				73090D8F25CCF73D00BAFC44 /* PediCalc */,
-				73090DA825CCF73E00BAFC44 /* PediCalcTests */,
 				73090DB325CCF73E00BAFC44 /* PediCalcUITests */,
+				737951B625DD5B13001B1C12 /* PediCalcTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,16 +384,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73090DCA25CCF7A100BAFC44 /* .swiftlint.yml in Resources */,
 				73090DA325CCF73E00BAFC44 /* LaunchScreen.storyboard in Resources */,
+				73A29F5225D601E80074750F /* Medicines.json in Resources */,
 				73090DA025CCF73E00BAFC44 /* Assets.xcassets in Resources */,
 				73090D9B25CCF73D00BAFC44 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73090DA725CCF73E00BAFC44 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,25 +399,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		737951B525DD5B13001B1C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73090DCE25CCF7B100BAFC44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		73090D8C25CCF73D00BAFC44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73090D9825CCF73D00BAFC44 /* ViewController.swift in Sources */,
+				73962A6B25CD76110087603A /* MedicinesViewController.swift in Sources */,
+				73A29F9625D634190074750F /* MedicineDescriptionView.swift in Sources */,
+				73A29F5F25D60C670074750F /* JsonModels.swift in Sources */,
+				73962A6625CD75C90087603A /* TabBarViewController.swift in Sources */,
+				73A29F5725D60A3E0074750F /* JsonParser.swift in Sources */,
+				73A29F6625D61DAE0074750F /* CoreDataMenager.swift in Sources */,
 				73090D9425CCF73D00BAFC44 /* AppDelegate.swift in Sources */,
+				73A29F9125D631A20074750F /* MedicineDescriptionViewController.swift in Sources */,
+				733D85CF25D2BCCC00F4B420 /* MedicinesTableViewCell.swift in Sources */,
+				73A29F8625D620FA0074750F /* Medicine+CoreDataProperties.swift in Sources */,
+				73AA86DA25D2117400621935 /* MedicinesView.swift in Sources */,
 				73090D9E25CCF73D00BAFC44 /* PediCalc.xcdatamodeld in Sources */,
+				73962A4D25CD70550087603A /* CalculatorsViewController.swift in Sources */,
+				7384F5C325CE2A6400BEEE16 /* CardColletionViewCell.swift in Sources */,
 				73090D9625CCF73D00BAFC44 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73090DA525CCF73E00BAFC44 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73090DAE25CCF73E00BAFC44 /* PediCalcTests.swift in Sources */,
+				7396DAA625D415DE00E4D7D0 /* BodySurfaceView.swift in Sources */,
+				73962A8925CD93910087603A /* CalculatorsViewModel.swift in Sources */,
+				7384F5D025CE328700BEEE16 /* CustomFlowLayout.swift in Sources */,
+				733D85D425D2C8B400F4B420 /* MedicineCellView.swift in Sources */,
+				73962A7925CD7E2F0087603A /* CalculatorsCollectionView.swift in Sources */,
+				7396DAB025D489D500E4D7D0 /* BodySurfaceModel.swift in Sources */,
+				73A29F8525D620FA0074750F /* Medicine+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,18 +467,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		737951B325DD5B13001B1C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731BEDBE25DD5B4900526282 /* JsonParserTests.swift in Sources */,
+				731BEDC325DD5C2A00526282 /* CoreDataManagerTests.swift in Sources */,
+				731BEDC825DD621F00526282 /* CalculatorViewModelTests.swift in Sources */,
+				737951BA25DD5B13001B1C12 /* PediCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		73090DAB25CCF73E00BAFC44 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 73090D8F25CCF73D00BAFC44 /* PediCalc */;
-			targetProxy = 73090DAA25CCF73E00BAFC44 /* PBXContainerItemProxy */;
-		};
 		73090DB625CCF73E00BAFC44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 73090D8F25CCF73D00BAFC44 /* PediCalc */;
 			targetProxy = 73090DB525CCF73E00BAFC44 /* PBXContainerItemProxy */;
+		};
+		737951BD25DD5B13001B1C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73090D8F25CCF73D00BAFC44 /* PediCalc */;
+			targetProxy = 737951BC25DD5B13001B1C12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,18 +633,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 38KM4K4A3R;
 				INFOPLIST_FILE = PediCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.gomes.PediCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,62 +653,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 38KM4K4A3R;
 				INFOPLIST_FILE = PediCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leo.gomes.PediCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		73090DC125CCF73E00BAFC44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38KM4K4A3R;
-				INFOPLIST_FILE = PediCalcTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leo.gomes.PediCalcTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PediCalc.app/PediCalc";
-			};
-			name = Debug;
-		};
-		73090DC225CCF73E00BAFC44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 38KM4K4A3R;
-				INFOPLIST_FILE = PediCalcTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.leo.gomes.PediCalcTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PediCalc.app/PediCalc";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -557,6 +709,46 @@
 			};
 			name = Release;
 		};
+		737951BF25DD5B13001B1C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38KM4K4A3R;
+				INFOPLIST_FILE = PediCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.gomes.PediCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PediCalc.app/PediCalc";
+			};
+			name = Debug;
+		};
+		737951C025DD5B13001B1C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38KM4K4A3R;
+				INFOPLIST_FILE = PediCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.gomes.PediCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PediCalc.app/PediCalc";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,20 +770,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73090DC025CCF73E00BAFC44 /* Build configuration list for PBXNativeTarget "PediCalcTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				73090DC125CCF73E00BAFC44 /* Debug */,
-				73090DC225CCF73E00BAFC44 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		73090DC325CCF73E00BAFC44 /* Build configuration list for PBXNativeTarget "PediCalcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				73090DC425CCF73E00BAFC44 /* Debug */,
 				73090DC525CCF73E00BAFC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737951BE25DD5B13001B1C12 /* Build configuration list for PBXNativeTarget "PediCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737951BF25DD5B13001B1C12 /* Debug */,
+				737951C025DD5B13001B1C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
