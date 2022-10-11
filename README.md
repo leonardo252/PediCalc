@@ -3,9 +3,3 @@ A app to Pediatricians that need calculate info from pacientes and get informati
 
 
 
-------
-
-
-
-
-Um aplicativo para Pediatras que precisam calcular informações de pacientes e obter informações de medicamentos. O aplicativo está em português.
