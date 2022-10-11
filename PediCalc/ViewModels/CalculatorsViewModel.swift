@@ -20,7 +20,8 @@ class CalculatorsViewModel: NSObject {
     
     func calculateBodySurface() {
         
-        guard let weight = Float(bodySurface.weight), let height = Float(bodySurface.height) else { return }
+        guard let weight = Float(bodySurface.weight) else { return }
+        guard let height = Float(bodySurface.height) else { return }
         
         let surface = 0.007184 * pow(height, 0.725) * pow(weight, 0.425)
         
