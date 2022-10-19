@@ -19,8 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let jsonParser = JsonParser()
             let cdManager = CDManager()
     
-            let medicines = jsonParser.parsingMedicines()
-            print(medicines.count)
+            guard let medicines = try? jsonParser.parsingMedicines() else {
+                return false
+            }
             
             if !cdManager.populateMedicines(medicines: medicines) {
                 return false

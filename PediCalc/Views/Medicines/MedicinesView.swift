@@ -16,7 +16,7 @@ class MedicinesView: UIView {
     let segmented: UISegmentedControl = {
         let segmentItems = ["Todas", "Salvas"]
         let control = UISegmentedControl(items: segmentItems)
-        control.addTarget(self, action: #selector(segmentControl(_:)), for: .valueChanged)
+        control.addTarget(MedicinesView.self, action: #selector(segmentControl(_:)), for: .valueChanged)
         control.selectedSegmentIndex = 0
         control.backgroundColor = UIColor(named: "BackgorundColor")
         control.selectedSegmentTintColor = UIColor(named: "ActionColor")

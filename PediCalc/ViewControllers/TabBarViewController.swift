@@ -19,7 +19,7 @@ class TabBarViewController: UITabBarController {
         calculators.tabBarItem.title = "Calculadoras"
 
         let medicines = UINavigationController(rootViewController: MedicinesViewController())
-        medicines.tabBarItem = UITabBarItem(title: "Medicamentos", image: UIImage(named: "Medicines"), tag: 1)
+        medicines.tabBarItem = UITabBarItem(title: "Medicamentos", image: UIImage(named: "medicines"), tag: 1)
         
         let tabBarList = [calculators, medicines]
         setupStyle()

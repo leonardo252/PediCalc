@@ -8,11 +8,16 @@
 
 import Foundation
 
+enum JSONParserError: Error {
+
+    case badJson
+}
+
 class JsonParser {
     
     var medicinesJson = "Medicines"
     
-    func parsingMedicines() -> [JSMedicine] {
+    func parsingMedicines() throws -> [JSMedicine] {
         
         let decoder = JSONDecoder()
         var medicines: [JSMedicine] = []
@@ -25,7 +30,7 @@ class JsonParser {
                 return medicines
             }
         } catch {
-            print(error)
+            throw JSONParserError.badJson
         }
         return medicines
     }
