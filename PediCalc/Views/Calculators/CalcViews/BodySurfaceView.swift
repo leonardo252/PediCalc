@@ -7,6 +7,12 @@
 
 import UIKit
 
+enum BodySurfaceError: Error {
+
+    case invalidInput
+    case nilValue
+}
+
 class BodySurfaceView: UIView {
     
     var viewModel: CalculatorsViewModel? {
@@ -18,7 +24,7 @@ class BodySurfaceView: UIView {
     var bodySurface: BodySurface!
     
     private let calcName: UILabel = {
-       let name = UILabel()
+        let name = UILabel()
         name.text = "Superfície Corporal"
         name.font = UIFont.systemFont(ofSize: 17, weight: .medium)
         name.adjustsFontForContentSizeCategory = true
@@ -26,7 +32,7 @@ class BodySurfaceView: UIView {
     }()
     
     private let weightLabel: UILabel = {
-       let name = UILabel()
+        let name = UILabel()
         name.text = "Peso"
         name.font = UIFont.systemFont(ofSize: 15, weight: .regular)
         name.adjustsFontForContentSizeCategory = true
@@ -34,7 +40,7 @@ class BodySurfaceView: UIView {
     }()
     
     let weightInput: UITextField = {
-       let input = UITextField()
+        let input = UITextField()
         input.placeholder = "Kg"
         input.borderStyle = .roundedRect
         input.backgroundColor = .white
@@ -44,15 +50,15 @@ class BodySurfaceView: UIView {
     }()
     
     private let heightLabel: UILabel = {
-       let name = UILabel()
+        let name = UILabel()
         name.text = "Altura"
         name.font = UIFont.systemFont(ofSize: 15, weight: .regular)
         name.adjustsFontForContentSizeCategory = true
         return name
     }()
     
-    let heightInput: UITextField = {
-       let input = UITextField()
+    lazy var heightInput: UITextField = {
+        let input = UITextField()
         input.placeholder = "Cm"
         input.borderStyle = .roundedRect
         input.backgroundColor = .white
@@ -61,7 +67,7 @@ class BodySurfaceView: UIView {
         return input
     }()
     
-    let buttonCalc: UIButton = {
+    lazy var buttonCalc: UIButton = {
         let button = UIButton(type: .custom)
         button.backgroundColor = UIColor(named: "ActionColor")
         button.frame = CGRect(x: 0, y: 0, width: 200, height: 34)
@@ -72,15 +78,15 @@ class BodySurfaceView: UIView {
         return button
     }()
     
-    private let resultLabel: UILabel = {
-       let name = UILabel()
+    lazy var resultLabel: UILabel = {
+        let name = UILabel()
         name.text = "Resultado"
         name.font = UIFont.systemFont(ofSize: 15, weight: .regular)
         name.adjustsFontForContentSizeCategory = true
         return name
     }()
     
-    let outPutResult: UITextField = {
+    lazy var outPutResult: UITextField = {
         let input = UITextField()
         input.placeholder = "m²"
         input.borderStyle = .roundedRect
@@ -102,37 +108,39 @@ class BodySurfaceView: UIView {
     }
     
     func setupTextFields() {
-            let toolbar = UIToolbar()
-            let flexSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace,
-                                            target: nil, action: nil)
-            let doneButton = UIBarButtonItem(title: "Done", style: .done,
-                                             target: self, action: #selector(doneButtonTapped))
-            
-            toolbar.setItems([flexSpace, doneButton], animated: true)
-            toolbar.sizeToFit()
-            
-            heightInput.inputAccessoryView = toolbar
-            weightInput.inputAccessoryView = toolbar
-        }
+        let toolbar = UIToolbar()
+        let flexSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace,
+                                        target: nil, action: nil)
+        let doneButton = UIBarButtonItem(title: "Done", style: .done,
+                                         target: self, action: #selector(doneButtonTapped))
+
+        toolbar.setItems([flexSpace, doneButton], animated: true)
+        toolbar.sizeToFit()
+
+        heightInput.inputAccessoryView = toolbar
+        weightInput.inputAccessoryView = toolbar
+    }
     
-    @objc func doneButtonTapped() {
-            self.endEditing(true)
-        }
+    @objc func doneButtonTapped(_ sender: Any) throws -> Void {
+        self.endEditing(true)
+    }
     
-    @objc func buttonTapped() {
-        print("Button Tapped!")
+    @objc func buttonTapped(_ sender: Any) throws -> Void {
+        debugPrint("Button Tapped!")
         
-        guard let height = heightInput.text, let weight = weightInput.text else { print("Invalid input"); return }
-        
-        if height == "" || weight == "" {
-            print("Nill Value")
-        } else {
-            
-            print(height, weight)
-            bodySurface = BodySurface(weight: weight, height: height, bodySuface: 0)
-        
-            viewModel = CalculatorsViewModel(measures: bodySurface)
+        guard let height = heightInput.text,
+              let weight = weightInput.text else {
+
+            throw BodySurfaceError.invalidInput
         }
+        
+        if height.isEmpty || weight.isEmpty {
+            throw BodySurfaceError.nilValue
+        }
+        
+        debugPrint(height, weight)
+        bodySurface = BodySurface(weight: weight, height: height, bodySuface: 0)
+        viewModel = CalculatorsViewModel(measures: bodySurface)
         
     }
     
